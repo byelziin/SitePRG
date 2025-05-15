@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font: 15pt;
+    overflow: hidden;
+    
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(to bottom, #735d57, #0d1576);
+    background-image: url("Fundo/foto\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#hrs {
+    text-align: center;
+    font-size: 18px;
+    transition: background-color 1s ease, color 1s ease;
+    width: 100%;
+    padding: 13px; 
+    cursor: context-menu;
+    
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1576;
+}
+
+.whatsapp-button {
+    position: fixed;
+    
+    right: 20px;
+
+    display: inline-flex;
+    align-items: center;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5d;
+}
+
+.whatsapp-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+#cabeçalho {
+    display: flex;
+    justify-content: center; 
+    padding-top: 15px;
+    min-width: 700px;
+    font-size: 20px;
+    background: linear-gradient(to bottom,#0d1576, #735d57)
+    
+}
+
+
+
+#cabeçalho p {
+    display: inline;
+    margin: 0px 17px;
+    justify-content: center;
+    color: white;
+    transition: background-color 1s ease, color 1s ease;
+    cursor: pointer;
+}
+ 
+#cab:hover {
+    transition: color 0.3s ease; 
+    color: #3B478C;
+    
+}
+
+
+#inicio {
+    height: 100vh;
+    padding: 55px;
+    text-align: center;
+    background: linear-gradient(to bottom, #735d578a, rgb(0, 0, 0));
+    color: white;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+#strong {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 48px;
+    padding: 5px;
+    border-radius: 16px;
+    background-color: #0d1576;
+    color:#ffffff; 
+}
+
+
+#text {
+    padding-top: 20px;
+    font-size: 39px;
+    font-weight: 750;
+}
+
+#text2 {
+    padding-top: 10px;
+    font-size: 35px;
+    font-weight: 750;
+    color: rgb(255, 153, 0);
+}
+
+#subtext {
+    padding: 25px;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0d1576;
+}
